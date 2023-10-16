@@ -24,6 +24,9 @@ public class Dowhilecuti17 {
                     }
                     
                 } while (jatahCuti > 0);
+            }else if (konfirmasi.equalsIgnoreCase("t")) {
+                System.out.println("Semangatlah dalam bekerja");
+                break;
             }    
         }while (jatahCuti > 0);    
     }
